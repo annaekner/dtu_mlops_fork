@@ -1,6 +1,9 @@
 import torch
 from torch import nn
 
+# I have made a change here on the local fork
+a = 1
+b = 2
 
 class Network(nn.Module):
     """Builds a feedforward network with arbitrary hidden layers.
